@@ -1,0 +1,26 @@
+{
+    "name": "api-automation",
+    "version": "1.0.0",
+    "description": "API automation testing for the API using Playwright and Page Object Model (POM).",
+    "main": "index.js",
+    "scripts": {
+      "test": "npx playwright test",
+      "test:debug": "npx playwright test --debug",
+      "test:report": "npx playwright test --reporter=html"
+    },
+    "keywords": [
+      "playwright",
+      "api-testing",
+      "automation",
+      "page-object-model"
+    ],
+    "author": "LB",
+    "license": "MIT",
+    "dependencies": {
+      "@playwright/test": "^1.39.0"
+    },
+    "devDependencies": {},
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
