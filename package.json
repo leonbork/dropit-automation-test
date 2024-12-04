@@ -1,7 +1,7 @@
 {
-    "name": "api-automation",
+    "name": "dropit-automation",
     "version": "1.0.0",
-    "description": "API automation testing for the API using Playwright and Page Object Model (POM).",
+    "description": "API automation testing for the UI & API using Playwright and Page Object Model (POM).",
     "main": "index.js",
     "scripts": {
       "test": "npx playwright test",
@@ -10,6 +10,7 @@
     },
     "keywords": [
       "playwright",
+      "ui-testing",
       "api-testing",
       "automation",
       "page-object-model"
